@@ -1,0 +1,1140 @@
+main {
+  overflow: hidden;
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: darkgray;
+}
+.section-mobile {
+  width: 500px;
+  background: white;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  max-width: 100%!important;
+  overflow-y: visible;
+}
+
+.header-main {
+  transition: 1s!important;
+  background: #ebf5e9;
+  width: inherit;
+  position: relative;
+  z-index: 99!important;
+  max-width: 100%!important;
+}
+
+.header-logo-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-logo-width {
+  width: 90px;
+}
+
+.header-logo-width img {
+  width: 100%;
+}
+
+.header-search-width {
+  width: calc(100% - 90px);
+}
+
+.padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.input-group {
+  border-radius: 10px!important;
+  overflow: hidden;
+  border: 1px solid gainsboro;
+}
+
+.input-group * {
+  border: 0px!important;
+  background: white!Important;
+  font-size: 16px!important;
+}
+
+body {
+  font-family: "Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.input-group input::-webkit-input-placeholder {
+  font-style: italic;
+  font-size: 16px!important;
+}
+
+.input-group input:-moz-placeholder {
+  font-style: italic;
+  font-size: 16px!important;
+}
+
+.input-group input::-moz-placeholder {
+  font-style: italic;
+  font-size: 16px!important;
+}
+
+.input-group input:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.input-group input {
+  height: 40px!important;
+}
+
+.notification-header {
+  background: rgba(255,255,255,3);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.notification-header-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notification-header-body i {
+  font-size: 20px;
+  width: 15px;
+}
+
+.notification-text, .notification-text * {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.notification-text {
+  width: calc(100% - 30px);
+  padding-left: 15px;
+  padding-right: 14px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+input, textarea, button, select {
+  box-shadow: none!important;
+  outline: none!important;
+}
+
+.header-back-width {
+  font-size: 22px;
+  width: 20px;
+  color: green;
+}
+
+.header-search-width2 {
+  width: calc(55% - 10px);
+}
+
+.header-right-width {
+  width: calc(45% - 10px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.header-right-width p {
+  font-size: 12px;
+  margin: 0px;
+  width: calc(100% - 20px);
+}
+
+.header-right-width p strong:first-child {
+  color: green!important;
+}
+
+.header-right-width i {
+  width: 20px;
+}
+
+.bg-style {
+  background: #ebf5e9;
+}
+
+.carousel img {
+  border-radius: 10px;
+}
+
+aside {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  position: fixed;
+  border: 0px!important;
+  width: inherit!important;
+  height: 60px;
+  bottom: 0px!important;
+  background: rgba(249,249,249,0.95);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.test {
+  height: 10000px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.section-mobile {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.aside-menu {
+  text-align: center;
+  width: 70px;
+  max-width: 18%;
+  height: 100%;
+  border-top: .3rem solid transparent;
+  display: block!important;
+  line-height: initial;
+  color: #222222;
+  border-radius: 3px;
+}
+
+.aside-menu i {
+  font-size: 26px;
+}
+
+.aside-menu span {
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+a[href], a[href]:hover {
+  text-decoration: none!important;
+}
+
+.aside-menu.active * {
+  font-weight: bold;
+  color: green!important;
+}
+
+.aside-menu.active {
+  border-color: green!important;
+}
+
+.icon-list-main {
+  width: 20%;
+  height: initial;
+  display: inline-block;
+  padding-left: initial;
+  text-align: center;
+  color: inherit;
+  padding-bottom: 10px;
+}
+
+.icon-list-image-width {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.icon-category-list {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.icon-list-image-width.bg-style img {
+  width: 90%;
+}
+
+.icon-list-main.active .icon-list-image-width {
+  border: 3px solid green!important;
+}
+
+.icon-list-main span {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 14px;
+  display: block;
+  padding-top: 5px;
+}
+
+.icon-list-main:hover {
+  color: inherit;
+}
+
+.icon-list-main.active * {
+  color: green!important;
+}
+
+.card-product, .card-product:hover {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  color: black;
+  overflow: hidden;
+  display: block;
+  font-size: 14px;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  border-radius: 5px;
+}
+
+.card-recipes, .card-recipes:hover {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  color: black;
+  overflow: hidden;
+  display: block;
+  font-size: 14px;
+  /*padding-top: .25rem;*/
+  padding-bottom: .25rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.card-product img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-product-body {
+  padding: .5rem;
+  font-size: 12px;
+  min-height: 8rem!important;
+}
+
+.card-product-title {
+  display: block;
+  margin-bottom: .1rem;
+}
+
+.card-product-star-main {
+  font-size: 11px;
+}
+
+.card-product-star-main i {
+  color: #ffa800;
+}
+
+.card-product-star-main span {
+  font-weight: bold;
+}
+
+.card-product-body small, .card-product-body b {
+  display: block;
+}
+
+.price-discount {
+  font-size: 10px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.btn-success {
+  background: green!important;
+  border-color: green!important;
+}
+
+.card-product-button .btn {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.card-product-button {
+  padding: .5rem;
+  min-height: 45px;
+}
+
+.row-product {
+  padding-left: .25rem;
+  padding-right: .25rem;
+}
+
+.btn-minus, .btn-plus {
+  width: 30px;
+  background: #f1f1f1!important;
+  border-radius: 100%;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-product-in-cart {
+  display: inline-block;
+  min-width: 30px;
+  text-align: center;
+}
+ 
+input.card-product-in-cart{
+	background: transparent!important;
+	border:0px!important; 
+	min-width : 30px!Important;
+	width : auto!Important;
+}
+
+.card-product-button-incart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-product-button .form-control {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.header-back-title {
+  width: calc(100% - 20px);
+  padding-left: 1rem;
+  display: inline-flex;
+    align-items: center;
+    margin: 0px;
+    justify-content: start;
+    width: 100%;
+}
+
+.header-back-title * {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.card-recipes img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-recipes-title {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.card-recipes-body {
+  padding: .5rem;
+  font-size: 12px;
+}
+
+.card-recipes-date, .card-recipes-post {
+  display: block;
+}
+
+.card-recipes:hover {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.3)!important;
+}
+
+.card-recipes-body-lg .card-recipes-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-recipes-body.card-recipes-body-lg {
+  font-size: 14px;
+  padding-top: 1rem!important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0px;
+}
+
+.no-hover:hover, .no-hover {
+  box-shadow: none!important;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.recipes-body {
+  padding: 1rem;
+  padding-bottom: 50px;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.card-style {
+  border-radius: 5px!important;
+  border-top: 5px solid orange;
+  border-left: 0px!Important;
+  border-right: 0px!Important;
+  border-bottom: 0px!important;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  margin-bottom: 1em;
+}
+
+.card-cart-time {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.card-cart-time * {
+  line-height: 22px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card-style .card-body {
+  padding: 0px;
+}
+
+hr {
+  background: gray;
+}
+
+.cart-item {
+  font-size: 12px;
+}
+
+.cart-block > * {
+  display: block;
+}
+
+.cart-item-flex {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  justify-content: space-between;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.btn-plus, .btn-minus {
+  color: green!important;
+}
+
+.cart-item-flex img {
+  width: 30px;
+}
+
+.cart-item-flex .cart-login {
+  width: calc(100% - 30px);
+}
+
+.cart-login {
+  padding-left: .5rem;
+  font-size: 14px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.cart-item-flex {
+  color: inherit!important;
+}
+
+.input-div b, .input-div span, .input-div strong {
+  display: block;
+  margin-bottom: .3rem!important;
+  color: #333333;
+}
+
+.color-black, .text-black, body {
+  color: #333333;
+}
+
+.input-div {
+  margin-bottom: 1rem;
+}
+
+.input-div:last-child {
+  margin-bottom: 0px!important;
+}
+
+input, select, textarea {
+  font-size: 14px!important;
+}
+
+* ::placeholder {
+  color: darkgray!important;
+  font-style: italic;
+}
+
+.text-green {
+  color: green!important;
+}
+
+.cart-checkbox {
+  width: 30px;
+}
+
+.cart-alamat-div {
+  padding: 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.cart-alamat-div > * {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.cart-alamat-div > *:last-child {
+  margin: 0px!important;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.aside-menu-50 {
+  width: 50%;
+  text-align: center;
+}
+
+.w-30 {
+  width: 30px;
+}
+
+.w-100-30 {
+  width: calc(100% - 30px);
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.w-100-40 {
+  width: calc(100% - 40px);
+}
+
+.w-60 {
+  width: 60px;
+}
+
+.w-100-60 {
+  width: calc(100% - 60px);
+}
+
+.w-70 {
+  width: 70px;
+}
+
+.w-100-70 {
+  width: calc(100% - 70px);
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.w-100-80 {
+  width: calc(100% - 80px);
+}
+
+.w-90 {
+  width: 90px;
+}
+
+.w-100-90 {
+  width: calc(100% - 90px);
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.payment-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid gainsboro;
+}
+
+.w-30 {
+  width: 30px;
+}
+
+.w-100-30 {
+  width: calc(100% - 30px);
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.w-100-40 {
+  width: calc(100% - 40px);
+}
+
+.w-60 {
+  width: 60px;
+}
+
+.w-100-60 {
+  width: calc(100% - 60px);
+}
+
+.w-70 {
+  width: 70px;
+}
+
+.w-100-70 {
+  width: calc(100% - 70px);
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.w-100-80 {
+  width: calc(100% - 80px);
+}
+
+.w-90 {
+  width: 90px;
+}
+
+.w-100-90 {
+  width: calc(100% - 90px);
+}
+
+.w-20 {
+  width: 20px;
+}
+
+.w-100-20 {
+  width: calc(100% - 20px);
+}
+
+.payment-card .payment-card {
+  padding-top: 0px!important;
+  padding-bottom: 0px!Important;
+  padding-left: 1rem!important;
+  border: 0px!Important;
+}
+
+.w-110 {
+  width: 110px;
+}
+
+.w-100-110 {
+  width: calc(100% - 110px);
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-100-120 {
+  width: calc(100% - 120px);
+}
+
+.w-130 {
+  width: 130px;
+}
+
+.w-100-130 {
+  width: calc(100% - 130px);
+}
+
+.w-140 {
+  width: 140px;
+}
+
+.w-100-140 {
+  width: calc(100% - 140px);
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.w-100-150 {
+  width: calc(100% - 150px);
+}
+
+.payment-card:last-child {
+  border: 0px!Important;
+  margin: 0px!Important;
+}
+
+.w-20p {
+  width: 20px;
+}
+
+.w-100-20 {
+  width: calc(100% - 20px);
+}
+
+.w-30p {
+  width: 30px;
+}
+
+.w-100-30 {
+  width: calc(100% - 30px);
+}
+
+.w-40p {
+  width: 40px;
+}
+
+.w-100-40 {
+  width: calc(100% - 40px);
+}
+
+.w-50p {
+  width: 50px!important;
+}
+
+.w-100-50 {
+  width: calc(100% - 50px);
+}
+
+.w-60p {
+  width: 60px;
+}
+
+.w-100-60 {
+  width: calc(100% - 60px);
+}
+
+.w-70p {
+  width: 70px;
+}
+
+.w-100-70 {
+  width: calc(100% - 70px);
+}
+
+.w-80p {
+  width: 80px;
+}
+
+.w-100-80 {
+  width: calc(100% - 80px);
+}
+
+.w-90p {
+  width: 90px;
+}
+
+.w-100-90 {
+  width: calc(100% - 90px);
+}
+
+.w-100p {
+  width: 100px;
+}
+
+.w-100-100 {
+  width: calc(100% - 100px);
+}
+
+.w-110p {
+  width: 110px;
+}
+
+.w-100-110 {
+  width: calc(100% - 110px);
+}
+
+.w-120p {
+  width: 120px;
+}
+
+.w-100-120 {
+  width: calc(100% - 120px);
+}
+
+.w-130p {
+  width: 130px;
+}
+
+.w-100-130 {
+  width: calc(100% - 130px);
+}
+
+.w-140p {
+  width: 140px;
+}
+
+.w-100-140 {
+  width: calc(100% - 140px);
+}
+
+.w-150p {
+  width: 150px;
+}
+
+.w-100-150 {
+  width: calc(100% - 150px);
+}
+
+.cart-item-full {
+  padding-bottom: .5rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+  border-bottom: 1px solid gainsboro;
+}
+
+.cart-item-full:last-child {
+  border: 0px!important;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.header-main.fixed {
+  top: 0px!important;
+}
+ 
+
+.no-hover img, .no-hover {
+  border-radius: 0px!important;
+}
+
+.card-header-style {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bg-primary {
+  background: rgb(0, 96, 175)!important;
+}
+
+.radius-0 {
+  border-radius: 0px!Important;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+p a {
+  color: green!important;
+}
+
+.bg-warning {
+  background: #ffd65e!important;
+}
+
+.card-style.card-border-0 {
+  border: 0px!important;
+  border-radius: 0px!important;
+  box-shadow: none!important;
+}
+
+.card-style.card-border-0 .padding {
+  padding: 0px!important;
+}
+
+.card-style.card-radius-0 {
+  border-radius: 0px!important;
+  box-shadow: none!important;
+  border-top: 7px solid #f1f1f1;
+}
+
+.card-style.card-radius-0 {
+  margin: 0px!important;
+}
+
+.section-mobile {
+  padding-bottom:150px!important
+}
+
+.card-login {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: inherit;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%!important;
+}
+
+.block-all > * {
+  display: block;
+}
+
+.block-all {
+  display: block;
+  width: 100%;
+}
+
+.input-login {
+  border: 3px solid rgba(0,122,65,0.54);
+  border-radius: 5px;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.radius-5 {
+  border-radius: 5px;
+}
+
+.card-login {
+  background: url("../../assets/img/quarter-segari-fruit.d3911e81.svg") bottom right no-repeat;
+  background-size: 150px;
+}
+
+.bg-style {
+  background-color: #ebf5e9;
+}
+
+.card-product-detail {
+  font-size: 16px!important;
+}
+
+.card-product-detail .img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-product-detail {
+}
+
+.card-product-body-lg {
+  padding-top: 1rem;
+  font-size: 14px;
+}
+
+.card-product-body-lg > * {
+  display: block;
+}
+
+.card-flex {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.row-product{
+width : 100%;
+display: grid;
+grid-template-columns: repeat(2,minmax(0,1fr));
+grid-gap: 15px;
+gap: 15px;
+}
+
+.div-product .card-product{
+	height: 100%;
+	display:flex; 
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.card-product-button .btn{
+height: 30px!important;
+}
+.card-product-button{
+width : 100%;display: flex!important; 
+flex-wrap: wrap;
+align-items: end;
+}
+.div-product{
+flex-direction: column; 
+}
+
+
+.text-warning{color:#fd8d25!important}
+.promo-max{ 
+color:#fd8d25!important;
+display:block!important;
+width : 100%;
+font-size : 12px;
+margin-bottom: .25rem;
+}
+
+.card-product-body small{color:#495057!important ; }
+.card-product-body a{color:black!important; } 
+
+.overflow { 
+text-overflow: ellipsis;
+font-weight: bold;
+overflow: hidden;
+display: inline-block;
+width: 100%;
+white-space: nowrap;
+}
+
+.btn-white{background: white}
+.aside-menu{position:relative;}
+.total_cart{position:absolute; top:0px; right:5px; background:orange; color:white; font-size : 10px!important; padding:3px; border-radius:5px; } 
+
+.btn-up{height: 45px; display:flex; justify-content:center; align-items:center; width : 45px; border-radius:100%; position:absolute; bottom:70px; right:15px;  }
+*{scroll-behavior: smooth;}
+	.btn-toggle{position:absolute; top:10px; right:10px}
+	
+.radio-button input[type="radio"] {
+display: none;
+}      
+.radio-button label {
+display: inline-block;
+cursor: pointer;
+}      
+.radio-button input[type="radio"]:checked+label {
+background-color: green!important;
+color:white;
+}
+
+.alert-fixed{max-width:300px!important;min-width:250px; position:absolute; font-size : 14px; padding:10px; right:10px; bottom:70px}
+.alert-fixed .close{cursor:pointer;font-size : 20px!important; font-weight : bold; color:black!important; text-decoration:none; margin:0px !important;  padding:0px;text-align:right; }
+
+
+.relative{position:relative;display:block}
+.absolute-10{position:absolute; top:10px; right:10px;}
+.absolute-10 .btn{font-size : 12px!important}
+
+
+.nolink{color:inherit!important; text-decoration:none!important;}
+.fs-20{font-size : 20px}
+.fs-22{font-size : 22px}
+.fs-24{font-size : 24px}
+.fs-26{font-size : 26px}
+.fs-28{font-size : 28px}
+.fs-30{font-size : 30px}
+.icon-div{width : 50px; height: 50px; border-radius:100%; display:inline-flex; justify-content:center; align-items:center; }
+.modal_del.active{bottom:0px!important; }
+.modal_del{position:absolute; border-top:1px solid gainsboro; bottom:-500px; width : 100%; background: white;z-index:99; left:0px; transition:0.5s; }
+
+
+
+.dataTables_filter,.dataTables_info,
+.dataTables_length{display:none;}
+#tables_wrapper{padding:0px;}
